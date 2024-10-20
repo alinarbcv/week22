@@ -38,12 +38,25 @@
 }
 .card{
   margin: 0 auto 50px;
-  display: flex;
+  flex-direction: column; 
   justify-content: center;
-  align-items:center;
+  align-items: center;    
   max-width: 30%;
-  
+  padding: 20px;
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
-.card-text{
 
+
+.small-image{
+  width: 200px;  
+    border-radius: 10px;
+}
+.btnClass{
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  cursor: pointer;
+  background-color:rgb(74, 120, 212);
 }
